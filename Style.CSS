@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght&400;700&family=Oswold:wght@400;500&display=swap');
+/*======================
+	General CSS
+======================*/
+
+body{
+	font-family:'Lato',sans-serif;
+	background-color: #fff;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.strict-title{
+	text-align: center;
+	margin-bottom: 30px;
+
+}
+.strict-title h2{
+	font-size: 40px;
+	color: #2d3950;
+}
+.strict-title p{
+	font-size: 15px;
+	color: #909090;
+}
+
+
+/*======================
+	Header CSS
+======================*/
+
+
+.Strict-header{
+	background-color: #f6f9f9;
+	padding: 30px 0;
+}
+.strict-menu{}
+.strict-menu ul{
+	display: flex;
+	justify-content: flex-end;
+}
+.strict-menu ul li{}
+.strict-menu ul li a{
+	text-transform: capitalize;
+	padding: 5px 26px;
+	display: block;
+	font-family:'Oswald', sans-serif;
+	color: #454444;
+	font-weight: 500;
+}
+
+
+/*======================
+	Banner CSS
+======================*/
+
+
+.strict-banner{
+	background: url('images/Strict.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	text-align: center;
+	padding: 210px 0 85px;
+}
+.strict-banner-top h1{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 80px;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+.strict-banner-top p{
+	color: #fff;
+	font-size: 20px;
+	border-top: 2px solid #15a4fa;
+	display: inline-block;
+	padding: 30px 20px;
+}
+.strict-banner-bottom{}
+.strict-banner-bottom a{
+	color: #fff;
+	border: 1px solid #15a4fa;
+	padding: 10px 30px;
+	transition: .4s;
+} 
+.strict-banner-bottom i{
+	display: block;
+	color: #fff;
+	margin-top: 176px;
+}
+.strict-banner-bottom a:hover{
+	background-color: #15a4fa;
+}
+
+
+/*======================
+	About CSS
+======================*/
+
+
+.strict-about{
+	padding: 83px 0 110px; 
+	background-color: #f4f4f9;
+}
+.strict-title{
+	text-align: center;
+	margin-bottom: 30px;
+
+}
+.strict-title h2{
+	font-size: 40px;
+	color: #2d3950;
+}
+.strict-about-text{
+	text-align: center;
+}
+.strict-about-text p{
+	color: #999999;
+
+}
+
+/*======================
+	Service CSS
+======================*/
+
+
+.strict-service{
+	background-color: #fff;
+	padding: 85px 0;
+}
+.strict-service-item{
+	padding: 0 30px;
+}
+.strict-service-icon{
+	width: 100px;
+	height: 95px;
+	background: linear-gradient(90deg,#48baff 50%,#5fc3ff 50%);
+	margin: 0 auto 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.strict-service-icon i{
+	color: #fff;
+	font-size: 30px;
+}
+.strict-service-text{
+	text-align: center;
+}
+.strict-service-text h5{
+	font-size: 22px;
+	color: #2d3950;
+}
+.strict-service-text p{
+	color: #999999;
+	font-size: 15px;
+}
+
+
+/*======================
+	Portfolio CSS
+======================*/
+
+
+.strict-work{
+	padding: 85px 0;
+	background-color: #f6f9f9;
+}
+.strict-work-item{
+	position: relative;
+	margin-bottom: 25px;
+}
+.strict-work-hover{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(21, 164, 250, .9);
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+	transition: .5s;
+}
+
+.strict-work-hover ul{
+	display: flex;
+}
+.strict-work-hover ul li{
+	width: 40px;
+	height: 40px;
+	border: 1px solid #fff;
+	margin: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: .3s;
+	border-radius: 3px
+} 
+.strict-work-hover ul li i{
+	color: #fff;
+}
+.strict-work-item:hover .strict-work-hover{
+	opacity: 1;
+}
+.strict-work-hover ul li:hover{
+	background-color: #fff;
+}
+.strict-work-hover ul li:hover i{
+	color: #15a4fa;
+}
+
+
+/*======================
+	Contact CSS
+======================*/
+
+
+.strict-contact{
+	background: url(images/Strict8.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+
+.strict-contact form{
+    width: 50%;
+    margin: 50px auto 0;
+}
+.strict-contact-overlay{
+    background-color: rgba(43, 55, 79, .9);
+    padding: 75px 0 109px;
+}
+.strict-contact-heading{
+    text-align: center;
+    margin-bottom: 33px;
+}
+.strict-contact-heading h4{
+}
+.strict-contact-heading p{
+    font-size: 15px;
+    color: #fff;
+}
+.user-name input,
+.email input,
+.msg textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border: 1px solid #999999;
+    padding: 20px 10px;
+    border-radius: 2px;
+}
+.user-name input:focus,
+.email input:focus,
+.msg textarea:focus{
+    outline: 1px solid #fff;
+}
+.strict-bottom{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.strict-bottom label{
+    color: #fff;
+    font-size: 13px;
+}
+.strict-bottom button{
+    width:140px;
+    height:35px;
+    border:1px solid #15a3f9;
+    color: #15a3f9;
+    align-items: center;
+    background-color: transparent;
+}
+.strict-bottom button:hover{
+    background-color: #15a3f9;
+    color:#fff;
+}
+
+/*======================
+	Footer CSS
+======================*/
+
+.footer-area{
+	width: 90%;
+	height: 45px;
+	display: flex;
+
+	
+}
+.footer-area p{
+	 color:#999999;
+    display: block;
+    padding: 12px;
+}
+.col-md-8 ul{
+	display: flex;
+	justify-content: flex-end;
+}
+.footer-area ul li{
+	 display: block;
+    padding:12px; 
+    color: #fff;
+	
+}
+.col-md-8 ul li a{
+	border: 1px solid #15a3f9;
+    padding:8px;
+    background: #15a3f9;
+}
+..col-md-8 ul li a:hover{
+	 background: #fff;
+    color: #15a3f9;
+}
