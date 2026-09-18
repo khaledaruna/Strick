@@ -43,12 +43,12 @@ ul{
 	background-color: #f6f9f9;
 	padding: 30px 0;
 }
-.strict-menu{}
+
 .strict-menu ul{
 	display: flex;
 	justify-content: flex-end;
 }
-.strict-menu ul li{}
+
 .strict-menu ul li a{
 	text-transform: capitalize;
 	padding: 5px 26px;
@@ -87,7 +87,7 @@ ul{
 	display: inline-block;
 	padding: 30px 20px;
 }
-.strict-banner-bottom{}
+
 .strict-banner-bottom a{
 	color: #fff;
 	border: 1px solid #15a4fa;
@@ -249,8 +249,7 @@ ul{
     text-align: center;
     margin-bottom: 33px;
 }
-.strict-contact-heading h4{
-}
+
 .strict-contact-heading p{
     font-size: 15px;
     color: #fff;
@@ -323,7 +322,7 @@ ul{
     padding:8px;
     background: #15a3f9;
 }
-..col-md-8 ul li a:hover{
+.col-md-8 ul li a:hover{
 	 background: #fff;
     color: #15a3f9;
 }
